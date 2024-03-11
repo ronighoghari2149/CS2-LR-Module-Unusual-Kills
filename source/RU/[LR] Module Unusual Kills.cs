@@ -32,7 +32,7 @@ public class LevelsRanksUnusualKills : BasePlugin
     private IPointsManager? _pointsManager;
     private Dictionary<int, DateTime> playerJumpStatus = new Dictionary<int, DateTime>();
     
-    public override void Load(bool hotReload)
+    public override void OnAllPluginsLoaded(bool hotReload)
     {
         base.Load(hotReload);
         _pointsManager = _pointsManagerCapability.Get();
