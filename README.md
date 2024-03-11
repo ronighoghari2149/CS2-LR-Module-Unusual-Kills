@@ -1,3 +1,79 @@
+# EN
+[C#] [LR] Module Unusual Kills is a module for the [C#] [Levels Ranks] Core plugin. This module awards additional experience points for unusual kills, such as wallbangs, no-scope with an AWP, jumping kills, being blinded by a flashbang, through smoke, and while running.
+
+# Installation
+1. Install [C# Levels Ranks Core](https://github.com/ABKAM2023/CS2-LevelsRanks-Core)
+2. Download [C#] [LR] Module Unusual Kills
+3. Unpack the archive and upload it to the game server
+4. Restart the server
+
+# Main configuration file (UnusualKills.yml)
+```
+# Configuration for '[LR] Module Unusual Kills'
+
+# Points for first kill
+PointsForFirstKill: 1
+# Points for wallbang kill
+PointsForWallbang: 1
+# Points for no-scope AWP kill
+PointsForNoScopeAWP: 2
+# Points for running kill
+PointsForKillWhileRunning: 2
+# Points for jump kill
+PointsForJumpKill: 2
+# Points for blind kill
+PointsForBlindKill: 2
+# Points for smoke kill
+PointsForSmokeKill: 5
+```
+
+# Plugin messages configuration file (UnusualKills.phrases.yml)
+```
+# Module messages '[LR] Module Unusual Kills'
+
+# Message displayed for the first kill
+FirstKillMessage: "first kill of the round"
+
+# Color of the message displayed for the first kill
+FirstKillMessageColor : "{Green}"
+
+# Message displayed for a wallbang kill
+WallbangKillMessage: "wallbang"
+
+# Color of the message displayed for a wallbang kill
+WallbangKillMessageColor : "{Green}"
+
+# Message displayed for a no-scope AWP kill
+NoScopeAWPMessage: "no-scope kill"
+
+# Color of the message displayed for a no-scope AWP kill
+NoScopeAWPMessageColor: "{Green}"
+
+# Message displayed for a kill while running
+KillWhileRunningMessage: "kill while running"
+
+# Color of the message displayed for a kill while running
+KillWhileRunningMessageColor: "{Green}"
+
+# Message displayed for a jump kill
+JumpKillMessage: "jump kill"
+
+# Color of the message displayed for a jump kill
+JumpKillMessageColor : "{Olive}"
+
+# Message displayed for a kill while blinded
+BlindKillMessage: "kill while blinded"
+
+# Color of the message displayed for a kill while blinded
+BlindKillMessageColor : "{Green}"
+
+# Message displayed for a smoke kill
+SmokeKillMessage: "kill through smoke"
+
+# Color of the message displayed for a smoke kill
+SmokeKillMessageColor : "{Grey}"
+```
+
 # RU
 [C#] [LR] Module Unusual Kills это модуль для плагина [C#] [Levels Ranks] Core. Данный модуль выдаёт дополнительные очки опыта за необычные убийства. К примеру: прострелом, без прицела с awp, в прыжке, с ослеплением от световой гранаты, в смок, на бегу.
 
